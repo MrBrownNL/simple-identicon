@@ -1,0 +1,21 @@
+{
+  "name": "simple-identicons",
+  "version": "1.0.0",
+  "description": "Easily add identicons to your project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrBrownNL/simple-identicons.git"
+  },
+  "keywords": [],
+  "author": "Jeroen de Bruijn",
+  "license": "ISC"
+}
