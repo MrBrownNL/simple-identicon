@@ -1,5 +1,6 @@
-export class Identicon {
-    public generate(seed: string): string {
-        return `This will eventually generate an identicon with '${seed}' as seed`;
-    }
+import {PngLib} from './pnglib'
+
+export function generate(seed: string): string {
+    const generator = new PngLib(100,100,16)
+    return generator.getBase64()
 }
